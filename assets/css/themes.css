@@ -1,0 +1,25 @@
+/* ========================================================
+   ISLA VESPERA RESORT: TROPICAL DESIGN SYSTEM
+   Deep Teal, Warm Island Sand Gold, Crisp Linen Canvas
+   Space-separated RGB for Tailwind opacity composability
+   ======================================================== */
+
+:root,
+[data-theme="tropical"] {
+  --color-primary: 30 91 90;          /* #1E5B5A - Deep Tropical Teal */
+  --color-primary-dark: 20 62 61;     /* #143E3D */
+  --color-primary-light: 45 130 128;  /* #2D8280 */
+  --color-secondary: 217 181 109;     /* #D9B56D - Warm Island Sand Gold */
+  --color-secondary-light: 235 208 152;
+  --color-background: 248 246 241;    /* #F8F6F1 - Crisp Linen White */
+  --color-surface: 255 255 255;       /* #FFFFFF - Pure Card White */
+  --color-surface-muted: 240 238 232; /* #F0EEE8 - Soft Sand */
+  --color-text: 24 35 34;             /* #182322 - Deep Forest Slate */
+  --color-text-muted: 107 119 118;    /* #6B7776 - Muted Slate */
+  --color-border: 226 222 212;        /* #E2DED4 - Organic Sand Border */
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --radius-badge: 9999px;
+  --radius-card: 0.75rem;
+  --radius-button: 0.5rem;
+}
